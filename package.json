@@ -1,0 +1,30 @@
+{
+  "name": "aws-cognito-implementation",
+  "version": "1.0.0",
+  "description": "AWS Cognito Implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarsunrise/aws-cognito-implementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarsunrise/aws-cognito-implementation/issues"
+  },
+  "homepage": "https://github.com/cesarsunrise/aws-cognito-implementation#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.1209.0",
+    "crypto": "^1.0.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
