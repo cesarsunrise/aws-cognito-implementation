@@ -1,8 +1,8 @@
 const userAttributes = (body) => {
-  const { email, phone_number, first_name, last_name } = body;
+  const { email, phone, first_name, last_name } = body;
   let userAttr = [];
   userAttr.push({ Name: "email", Value: email });
-  userAttr.push({ Name: "phone_number", Value: phone_number });
+  userAttr.push({ Name: "phone_number", Value: `+1${phone}` });
   userAttr.push({ Name: "name", Value: first_name });
   userAttr.push({ Name: "family_name", Value: last_name });
   return userAttr;
